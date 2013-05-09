@@ -8,8 +8,8 @@ import parameter as par
 import genclass as gc
 
 import cosmology.cosparameter as cospar
-import cosmology.frw 
-import cosmology.power 
+import cosmology.frw as frw
+import cosmology.power  as power
 
 import mpiutil as mpi
 
