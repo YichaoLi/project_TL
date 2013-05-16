@@ -1,9 +1,10 @@
 import numpy as np
-import genscript.cyth.cubicspline as cs
 import genscript.units as units
 
 import cosmology.frw as frw
 
+try: import genscript.cyth.cubicspline as cs
+except: pass
 
 
 class PowerSpectrum(object):
