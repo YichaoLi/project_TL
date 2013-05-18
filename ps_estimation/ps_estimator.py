@@ -20,10 +20,6 @@ import os
 
 import functions
 
-
-pi = np.pi
-deg2rad = pi/180.
-
 params_init = {
     'processes' : 1,
 
