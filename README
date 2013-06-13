@@ -1,0 +1,42 @@
+Code for Tianlai Project
+
+Now we have two parts for this project. One part is for TL simulation, 
+which is contributed by Xin; Another part is for data analysis, including
+foreground cleanning and power spectrum estimation.
+
+If you need help for setting up Github on your computer, please follow this link
+
+https://help.github.com/articles/generating-ssh-keys#platform-linux
+
+To use the python modules, you need some python libs:
+
+numpy
+
+scipy
+
+mpi4py
+
+matplotlib
+
+----------
+
+A: For the simulation part(Xin's code), please add the path to PYTHONPATH as 
+shown below:
+
+export PYTHONPATH="PATH/TO/project_TL/tlib/python:"$PYTHONPATH
+
+An example are in:
+
+project_TL/tlib/example/example.py
+
+----------
+
+B: For the analysis part, please add the project path to PYTHONPATH
+
+export PYTHONPATH="PATH/TO/project_TL/:"$PYTHONPATH
+
+please find the pipeline in input/
+
+to run the pipeline, please use the manager.py
+
+$python manager.py yours.pipe
